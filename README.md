@@ -1,8 +1,8 @@
 # How to git
 
 ## Commands to cover:
-[clone](#clone)
-[checkout](#checkout)
+* [clone](#clone)
+* [checkout](#checkout)
 
 ### <a name="clone"></a> clone
 
