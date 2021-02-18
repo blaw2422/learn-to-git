@@ -51,3 +51,7 @@ What's a merge conflict
  - The question is "Which change, or combination of changes, should be the end result of these 2 commits?
  - Sometimes a single person can understand what the result should be
  - Sometimes 2 or more should sit together to achieve desired result of the 2 commits
+
+Examples:
+
+<img src="./images/merge.png" />
