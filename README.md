@@ -3,6 +3,7 @@
 ## Commands to cover:
 * [clone](#clone)
 * [checkout](#checkout)
+* [fetch](#fetch)
 
 ### <a name="clone"></a> clone
 
@@ -19,3 +20,16 @@
         * `git checkout origin/development file1.txt # branch`
         * `git checkout head^ # commit `
         * `git checkout -- file1.txt # assumes HEAD - but allows for deleted files`
+
+### <a name="fetch"></a> fetch
+
+* What does it do?
+    * fetch updates what your copy of the repo knows about the remote
+    * fetch **does not** change any files on your computer
+    * fetch _does_ change what your `origin` ( or other remote ) looks like
+
+* When should I use fetch?
+    * When you want to see if there are new changes
+    * When you aren't sure if there are new changes
+    * When someone says 'Hey, you should fetch'
+    * All the time, any time
