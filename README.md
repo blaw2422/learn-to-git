@@ -4,6 +4,7 @@
 * [clone](#clone)
 * [checkout](#checkout)
 * [fetch](#fetch)
+* [pull](#pull)
 
 ### <a name="clone"></a> clone
 
@@ -33,3 +34,7 @@
     * When you aren't sure if there are new changes
     * When someone says 'Hey, you should fetch'
     * All the time, any time
+
+### <a name="pull"></a> pull
+
+Pull is a short-cut of `fetch` to update the remote and `merge` remote's state to local branch
