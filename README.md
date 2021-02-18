@@ -7,6 +7,7 @@
 * [pull](#pull)
 * [merge](#merge)
 * [push](#push)
+* [branch](#branch)
 
 ### <a name="clone"></a> clone
 
@@ -53,8 +54,9 @@ What's a merge conflict
  - Sometimes a single person can understand what the result should be
  - Sometimes 2 or more should sit together to achieve desired result of the 2 commits
 
-Examples:
-
+```
+git merge feature/merge
+```
 <img src="./images/merge.png" />
 
 ### <a name="push"></a> push
@@ -64,3 +66,26 @@ Push sets the remote's version to your local version.  This makes changes availa
 What could go wrong?
 * If the remote is **ahead** of your local version, you could be asked to `pull` first
 * If history has changed, you may need to force push -- this is destructive
+
+### <a name="branch"></a> branch
+
+List, create, or delete branches
+
+What's a branch?
+> A branch is just a pointer to a specific hash
+
+Git commits are a collection of changes - hashes
+Each commit points to its parent - like a linked list
+So, a branch is a way to put a name to a point in time of changes
+
+What can I do with **branch**?
+
+```
+git branch
+```
+<img src="./images/branch.png">
+
+```
+git branch -r
+```
+<img src="./images/branch-r.png">
