@@ -1,13 +1,13 @@
 #<a href="main"></a> How to git
 
 ## Ideas to cover:
-* commits
-* staging
-* remotes
-* branches
-* merging
-* ordering of commits
-* .gitignore
+* [commits](./ideas-commits.md)
+* [staging](./ideas-staging.md)
+* [remotes](./ideas-remotes.md)
+* [branches](./ideas-branches.md)
+* [merging](./ideas-merging.md)
+* [ordering of commits](./ideas-ordering-of-commits.md)
+* [.gitignore](./ideas-gitignore)
 
 ## Commands to cover:
 * [clone](./commands-clone.md)
