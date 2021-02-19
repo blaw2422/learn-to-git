@@ -1,8 +1,7 @@
 #<a href="main"></a> How to git
 
 ## Ideas to cover:
-* [commits](./ideas-commits.md)
-* [staging](./ideas-staging.md)
+* [commits and staging](./ideas-commits.md)
 * [remotes](./ideas-remotes.md)
 * [branches](./ideas-branches.md)
 * [merging](./ideas-merging.md)
