@@ -1,21 +1,18 @@
-# How to git
+#<a href="main"></a> How to git
+
+## Ideas to cover:
+* [commits and staging](./ideas-commits.md)
+* [remotes](./ideas-remotes.md)
+* [branches](./ideas-branches.md)
+* [merging](./ideas-merging.md)
+* [ordering of commits](./ideas-ordering-of-commits.md)
+* [.gitignore](./ideas-gitignore)
 
 ## Commands to cover:
-* [clone](#clone)
-* [checkout](#checkout)
-
-### <a name="clone"></a> clone
-
-* What does it do?
-    * Obviously - it downloads the repo onto my computer
-    * Not so obvious - it sets up the remote for us
-
-### <a name="checkout"></a> checkout
-
-* What do we use it for?
-    * checking out new branches from an existing branch
-        * `git checkout -b feature/123`
-    * checking out a specific file or folder from a different branch / commit
-        * `git checkout origin/development file1.txt # branch`
-        * `git checkout head^ # commit `
-        * `git checkout -- file1.txt # assumes HEAD - but allows for deleted files`
+* [clone](./commands-clone.md)
+* [checkout](./commands-checkout.md)
+* [fetch](./commands-fetch.md)
+* [pull](./commands-pull.md)
+* [merge](./commands-merge.md)
+* [push](./commands-push.md)
+* [branch](./commands-branch.md)
